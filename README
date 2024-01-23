@@ -1,0 +1,8 @@
+TO BUILD AN IMAGE => docker build -t ugurcanoruc/auth .
+Service has to be a Dockerfile that has configs in it.
+
+
+TO ADD SKAFFOLD INTO PROCESS => skaffold dev
+This will listen all the images you write in its own yaml file.
+If you have a problem saying connection refused solution is the reset all clusters 
+from docker kubernetes and install ingress-nginx again
