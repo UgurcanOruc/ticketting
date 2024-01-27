@@ -3,6 +3,8 @@ Service has to be a Dockerfile that has configs in it.
 
 
 TO ADD SKAFFOLD INTO PROCESS => skaffold dev
+This is like npm start 
 This will listen all the images you write in its own yaml file.
-If you have a problem saying connection refused solution is the reset all clusters 
+If you have a problem saying connection refused solution is 
+first try ctrl + c on skaffold dev, if it continues then reset all clusters 
 from docker kubernetes and install ingress-nginx again
