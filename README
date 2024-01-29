@@ -8,3 +8,9 @@ This will listen all the images you write in its own yaml file.
 If you have a problem saying connection refused solution is 
 first try ctrl + c on skaffold dev, if it continues then reset all clusters 
 from docker kubernetes and install ingress-nginx again
+
+
+
+
+In middlewares, when we use next function, it means that you pass the middleware now 
+continue to do your thing in your router.
