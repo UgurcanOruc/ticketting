@@ -1,3 +1,5 @@
+TO BYPASS SLL ERROR ON BROWSER => TYPE THISISUNSAFE AFTER CLICKING ANYWHERE ON PAGE
+
 TO BUILD AN IMAGE => docker build -t ugurcanoruc/auth .
 Service has to be a Dockerfile that has configs in it.
 
@@ -14,3 +16,7 @@ from docker kubernetes and install ingress-nginx again
 
 In middlewares, when we use next function, it means that you pass the middleware now 
 continue to do your thing in your router.
+
+
+KUBERNETES GET PODS => kubectl get pods
+           DELETE POD => kubectl delete <podId>
