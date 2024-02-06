@@ -20,3 +20,6 @@ continue to do your thing in your router.
 
 KUBERNETES GET PODS => kubectl get pods
            DELETE POD => kubectl delete <podId>
+
+
+    // "pub" : "npm version patch && git add . && git commit -m \"Updates\" && npm run build && npm publish"
