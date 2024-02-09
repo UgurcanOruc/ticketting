@@ -39,7 +39,7 @@ global.signin = () => {
   // return a string thats the cookiie with the encoded data.
 
   const payload = {
-    id: '123ugur',
+    id: new mongoose.Types.ObjectId().toHexString(),
     email: 'test@test.com'
   }
   const token = jwt.sign(payload, process.env.JWT_KEY!);
