@@ -23,3 +23,11 @@ KUBERNETES GET PODS => kubectl get pods
 
 
        // "pub" : "npm version patch && git add . && git commit -m \"Updates\" && npm run build && npm publish"
+
+WHEN YOU START THE NATS-TEST PROJECT
+    you need to forward ports and to do that
+        -> run => kubectl get pods
+        -> get the nats-depl port id
+        -> kubectl port-forward [nats-depl port id] 4222:4222
+        -> then run npm run publish or listen
+        
